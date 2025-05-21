@@ -1,0 +1,8 @@
+2025-05-21 12:32:21,901 - model_building - DEBUG - Parameters retrieved from params.yaml
+2025-05-21 12:32:21,901 - model_building - ERROR - Failed to complete the model building process: 'model_building'
+2025-05-21 12:33:05,753 - model_building - DEBUG - Parameters retrieved from params.yaml
+2025-05-21 12:33:06,059 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (3654, 1001)
+2025-05-21 12:33:06,081 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 100, 'random_state': 42}
+2025-05-21 12:33:06,081 - model_building - DEBUG - Model training started with 3654 samples
+2025-05-21 12:33:08,572 - model_building - DEBUG - Model training completed
+2025-05-21 12:33:08,577 - model_building - DEBUG - Model saved to models/model.pkl
